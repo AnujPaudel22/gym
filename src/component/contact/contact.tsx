@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
     <span id="contact"></span>
-    <div className=" dark:bg-black dark: border-3 rounded-md dark: border-secondary page-container">
+    <div className=" dark:bg-black dark:border-3 rounded-md dark:border-secondary page-container">
       <div >
         <div className=" grid sm:grid-cols-3 items-center  py-8  ">
         <div className="col-span-2">

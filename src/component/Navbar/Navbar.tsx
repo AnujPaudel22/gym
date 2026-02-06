@@ -7,6 +7,7 @@ import { IoMdClose } from 'react-icons/io'
 import { CiMenuBurger } from 'react-icons/ci'
 import ResponsiveMenu from './ResponsiveMenu'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [showMenu, setMenu]= useState(false)
@@ -26,7 +27,7 @@ const Navbar = () => {
           <ul className='flex gap-8 m-5'>
             {Navlinks.map((item)=>(
               <li key={item.id}>
-                <a href={item.link} className='font- font-semibold text-lg'>{item.name}</a>
+                <Link to={item.link} className='font- font-semibold text-lg'>{item.name}</Link>
                 
               </li>
              

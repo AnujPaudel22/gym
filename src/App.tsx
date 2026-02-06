@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { About, Contact, ErrorPage, Footer, Navbar, Services } from "./component"
+import { About, Contact, ErrorPage, Footer, HeroSection, Navbar, Services } from "./component"
 
 
 
@@ -14,7 +14,7 @@ const App = () => {
       <Contact/>
       <Services/> */}
       <Routes>
-        <Route path="/" element={<><About /><Services /><Contact /></>} />
+        <Route path="/" element={<HeroSection/>} />
         <Route path="/about" element={<About/>}/>
         <Route path="/services" element={<Services/>}/>
         <Route path="/contact" element={<Contact/>}/>
