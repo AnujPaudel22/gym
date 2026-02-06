@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+@theme{
+    --color-primary:#24284D;
+    --color-secondary:#800080;
+}
+@layer components {
+    .primary-btn{
+        @apply bg-secondary hover:bg-secondary/60 px-5 py-2 capitalize text-white rounded duration-500 
+    }
+    .page-container{
+        @apply max-w-6xl mx-auto
+    }
+} 
+
