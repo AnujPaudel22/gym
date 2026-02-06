@@ -3,7 +3,10 @@ import { Pushups } from "../../image"
 
 const HeroSection = () => {
   return (
-    <div className="relative h-screen w-full overflow-hidden page-container">
+    
+    <>
+    <span id="/gym/home"></span>
+      <div className="relative h-screen w-full overflow-hidden page-container">
       <div className="">
         <div >
             <img src={Pushups} alt="MySelf" className="absolute inset-0 h-full w-full object-cover " />
@@ -21,7 +24,8 @@ const HeroSection = () => {
       </div>
       </div>
       
-    </div>
+    </div>    
+    </>
   )
 }
 

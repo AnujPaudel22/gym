@@ -2,17 +2,22 @@
 export const Navlinks=[
     {
         id:1,
+        name: "home",
+        link:"/gym/home"
+    },
+    {
+        id:2,
         name: "Services",
-        link:"/services"
+        link:"/gym/services"
     },
     {
-        id:1,
+        id:3,
         name: "About",
-        link:"/about"
+        link:"/gym/about"
     },
     {
-        id:1,
+        id:4,
         name: "Contact",
-        link:"/contact"
+        link:"/gym/contact"
     }
 ]
